@@ -11,7 +11,7 @@ function Confetti() {
     setConfettiActive(true);
     setTimeout(() => {
       setConfettiActive(false);
-    }, 5000);
+    }, 2000);
   };
 
   return (

@@ -51,6 +51,7 @@
 
 .app__welcome__surprise__handle {
   font-size: 35px;
+  margin-bottom: 30px;
   color: #3040FC;
   text-decoration: underline;
   cursor: pointer;
