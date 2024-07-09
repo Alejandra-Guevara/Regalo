@@ -5,7 +5,7 @@ import "./App.css";
 import Confetti from "./components/confetti";
 import Heart from "./components/heart";
 
-import taeImage from "./assets/images/Tae.jpg";
+import mamiImage from "./assets/images/mami.jpeg";
 import giftImageOne from "./assets/images/giftOne.png";
 import giftImageTwo from "./assets/images/giftTwo.gif";
 
@@ -28,7 +28,7 @@ function App() {
           <Confetti />
           <div className="app__welcome__title">¡Feliz Cumpleaños Mamita!</div>
           <div className="app__welcome__image">
-            <img src={taeImage} alt="mamita" />
+            <img src={mamiImage} alt="mamita" />
           </div>
           <div className="app__welcome__surprise">
             <p>Te tengo unos regalos</p>
