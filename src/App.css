@@ -1,0 +1,104 @@
+.app {
+  font-family: "Monotype Corsiva", "Apple Chancery", "ITC Zapf Chancery",
+    "URW Chancery L", cursive;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__welcome {
+  margin-top: 20px;
+}
+
+.app__welcome__title {
+  color: #000000;
+  padding: 10px;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+@keyframes movex {
+  0% {
+    transform: translateX(-100px);
+  }
+  50% {
+    transform: translateX(100px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.app__welcome__image {
+  margin-top: 20px;
+
+  img {
+    border-radius: 12px;
+    height: 300px;
+    width: 300px;
+    animation: movex 5s infinite;
+  }
+}
+
+.app__welcome__surprise {
+  p {
+    font-size: 40px;
+    margin: 0;
+    padding: 5px 0 5px 0;
+  }
+}
+
+.app__welcome__surprise__handle {
+  font-size: 35px;
+  color: #3040FC;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@keyframes movez {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.app__surprise {
+  margin-top: 100px;
+
+  img {
+    border-radius: 12px;
+    height: 300px;
+    width: 300px;
+    animation: movez 5s infinite;
+  }
+}
+
+.app__surprise__gift__one__image__handle {
+  margin-top: 60px;
+  padding: 10px;
+  font-size: 45px;
+  color: #3040FC;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.app__surprise__gift__two__image__handle {
+  margin-top: 60px;
+  padding: 10px;
+  font-size: 45px;
+  color: #3040FC;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.app__surprise__gift__three {
+  margin-top: 60px;
+  padding: 10px;
+  font-size: 85px;
+  }
